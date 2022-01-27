@@ -1,0 +1,8 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.flow > *:where(:not(:first-child)) {
+  margin-top: 1rem;
+}
